@@ -13,11 +13,27 @@ body {
     border: 1px solid #aaaaaabe;
     border-radius: 5px;
     padding: 8px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.name {
+    flex-grow: 1;
+    flex-basis: 160px;
+}
+
+.email {
+    flex-grow: 3;
+    flex-basis: 200px;
 }
 
 .btn {
     font-weight: 500;
     padding: 10px 20px;
+    flex-grow: 1;
+    flex-basis: 80px;
 }
 
 label {

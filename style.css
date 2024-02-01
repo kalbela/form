@@ -8,6 +8,13 @@ body {
     background: #222;
 }
 
+.form {
+    background: #222;
+    border: 1px solid #aaaaaabe;
+    border-radius: 5px;
+    padding: 8px;
+}
+
 .btn {
     font-weight: 500;
     padding: 10px 20px;

@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+*::selection {
+    background: rgb(131, 131, 131);
+}
+
 body {
     background: #222;
 }
@@ -34,6 +38,11 @@ body {
     padding: 10px 20px;
     flex-grow: 1;
     flex-basis: 80px;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
 }
 
 label {
